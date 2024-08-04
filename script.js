@@ -4,10 +4,10 @@ window.addEventListener("scroll",()=>{
 })
 
 // pre loader
- let loader=document.querySelector('.loader');
- window.addEventListener("load",function(){
-    loader.style.display="none"
- })
+ // let loader=document.querySelector('.loader');
+ // window.addEventListener("load",function(){
+ //    loader.style.display="none"
+ // })
 //end pre loader 
 gsap.from(".heading h2",{
     y:20,
